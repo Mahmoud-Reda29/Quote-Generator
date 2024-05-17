@@ -1,0 +1,20 @@
+body{
+    padding: 80px;
+}
+
+.quote h1{
+    padding: 50px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+.quote p{
+    padding: 50px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.quote-generator{
+    padding: 25px;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+}
