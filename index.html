@@ -11,16 +11,25 @@
 </head>
 
 <body>
-    <div class="quote text-center text-capitalize">
-        <h1 class=" fw-bolder">Quote of The Day</h1>
-        <p>Press the button below to recieve a random quote!</p>
-        <a name="" id="" class="btn btn-primary quote-generator mb-3" onclick="fetchQuotes()" href="#" role="button">Button</a>
+    <div class="quotes">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="quote text-center text-capitalize">
+                        <h1 class=" fw-bolder">Quote of The Day</h1>
+                        <p>Press the button below to recieve a random quote!</p>
+                        <a name="" id="" class="btn btn-primary quote-generator mb-3" onclick="fetchQuotes()" href="#" role="button">Button</a>
+                    </div>
+                
+                    <div class="random-quote text-center">
+                        <h5 id="randomquote" class="h2"></h5>
+                        <h6 id="author" class="h3"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="random-quote text-center">
-        <h5 id="randomquote" class="h2"></h5>
-        <h6 id="author" class="h3"></h6>
-    </div>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
